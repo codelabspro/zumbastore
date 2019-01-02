@@ -10,4 +10,8 @@
 ==> cd zumbastore
 
 ==> react-native init zumbastore
+
+==> npm install -g eslint
+
+==> npm install --save-dev eslint-config-rallycoding
 ~~~
