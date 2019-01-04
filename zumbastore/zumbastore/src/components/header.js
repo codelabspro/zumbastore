@@ -3,12 +3,15 @@ import React, { Component } from 'react';
 import { Container, Button, Text, View } from 'native-base';
 
 export default class Header extends Component {
+        constructor(props) {
+                super(props);
+        }
         render() {
                 const { textStyle, viewStyle } = styles;
                 return (
                         <View style={viewStyle}>
                                         <Text style={textStyle}>
-                                                Welcome to Oakville Auto
+                                               {this.props.headerText} 
                                         </Text>
                         </View>
                 );
