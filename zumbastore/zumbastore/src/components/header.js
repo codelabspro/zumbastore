@@ -4,9 +4,10 @@ import { Container, Button, Text } from 'native-base';
 
 export default class Header extends Component {
         render() {
+                const { textStyle } = styles;
                 return (
                                 <Button>
-                                        <Text>
+                                        <Text style={textStyle}>
                                                 Button
                                         </Text>
                                 </Button>
@@ -14,3 +15,8 @@ export default class Header extends Component {
         }
 }
 
+const styles = {
+        textStyle: {
+                fontSize: 20
+        }
+};
