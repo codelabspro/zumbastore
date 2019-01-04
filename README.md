@@ -14,4 +14,11 @@
 ==> npm install -g eslint
 
 ==> npm install --save-dev eslint-config-rallycoding
+
+Install NativeBase
+npm install native-base --save
+
+Install Peer Dependencies
+react-native link
+
 ~~~
