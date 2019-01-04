@@ -1,8 +1,16 @@
 
-import React from 'react';
-import { Text } from 'react-native';
+import React, { Component } from 'react';
+import { Container, Button, Text } from 'native-base';
 
-const Header = (props) => (
-        <Text> Welcome to Header </Text>
-);
-export default Header;
+export default class Header extends Component {
+        render() {
+                return (
+                                <Button>
+                                        <Text>
+                                                Button
+                                        </Text>
+                                </Button>
+                );
+        }
+}
+
