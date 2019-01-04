@@ -13,12 +13,7 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={styles.container}>
       <Header/>
-        <Text style={styles.welcome}>Welcome to ZumbaStore</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-      </View>
     );
   }
 }
@@ -26,9 +21,11 @@ export default class App extends Component<Props> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#F8F8F8',
+    paddingTop: 40,
+
   },
   welcome: {
     fontSize: 20,
